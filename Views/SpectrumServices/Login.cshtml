@@ -1,0 +1,46 @@
+﻿@model UserLogInControl
+@{
+    ViewBag.Title = "CustomerInfo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("Login", "SpectrumServices"))
+{
+
+
+    <div class="sidenav">
+        <div class="login-main-text">
+            <h1 class="CustomerHeaderBoldColored">SPECTRUM <br /></h1>
+            <h2 class="CustomerHeaderBoldColored">&nbsp;&nbsp;&nbsp;&nbsp;SERVICES</h2>
+        </div>
+    </div>
+    <div class="main">
+        <div>
+            <div class="login-form">
+                <form>
+                    <div class="form-group">
+                        @if (Model != null && Model.IncorrectLogin)
+                        {
+                            <label>@Model.LoginMessage</label>
+                        }
+                    </div>
+                    <div class="form-group">
+                        <label>User Name</label>
+                        @Html.TextBoxFor(m => m.Username, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Username)
+                    </div>
+
+                    <div class="form-group">
+                        <label>Password</label>
+                        @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Password)
+                    </div>
+                    @Html.AntiForgeryToken()
+                    <button type="submit" class="btn btn-black">Login</button>
+                    @*<button type="submit" class="btn btn-secondary">Register</button>*@
+                </form>
+            </div>
+        </div>
+    </div>
+
+}

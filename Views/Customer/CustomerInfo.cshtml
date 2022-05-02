@@ -1,0 +1,272 @@
+﻿@model CustomerViewModel
+@{
+    ViewBag.Title = "CustomerInfo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="CustomheaderBold">Simple Tax Customer</h2>
+
+
+@using (Html.BeginForm("Save", "Customer"))
+{
+
+    <table width="700px">
+        <tr>
+            <td>
+                <h1 class="Customheader">PERSONAL INFO</h1>
+            </td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>
+                <h1 class="Customheader">BUSINESS INFO</h1>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @if (Convert.ToString(Session[SessionStatus.Admin.ToString()]).Equals(SessionStatus.Admin.ToString()))
+                {
+                    @Html.LabelFor(m => m.customer.Firstname)
+                    @Html.TextBoxFor(m => m.customer.Firstname, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.customer.Firstname)
+                }
+                else
+                {
+                    <label>First name</label> <br />
+                    <label>@Model.customer.Firstname</label>
+                    @Html.HiddenFor(m => m.customer.Firstname)
+                }
+            </td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>
+                @Html.LabelFor(m => m.customer.Businessname)
+                @Html.TextBoxFor(m => m.customer.Businessname, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.customer.Businessname)
+            </td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>
+
+                @if (Convert.ToString(Session[SessionStatus.Admin.ToString()]).Equals(SessionStatus.Admin.ToString()))
+                {
+                    @Html.LabelFor(m => m.customer.Lastname)
+                    @Html.TextBoxFor(m => m.customer.Lastname, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.customer.Lastname)
+                }
+                else
+                {
+                    <label>Last name</label> <br />
+                    <label>@Model.customer.Lastname</label>
+                    @Html.HiddenFor(m => m.customer.Lastname)
+                }
+
+            </td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>
+                @Html.LabelFor(m => m.customer.Address)
+                @Html.TextAreaFor(m => m.customer.Address, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.customer.Address)
+            </td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(m => m.customer.Birthday)
+                @Html.TextBoxFor(m => m.customer.Birthday, "{0:d MM yyyy}", new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.customer.Birthday)
+            </td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>
+                @Html.LabelFor(m => m.customer.TinNumber)
+                @Html.TextBoxFor(m => m.customer.TinNumber, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.customer.TinNumber)
+            </td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(m => m.customer.Cellphone)
+                @Html.TextBoxFor(m => m.customer.Cellphone, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.customer.Cellphone)
+            </td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>
+                @Html.LabelFor(m => m.customer.LineOfBusiness)
+                @Html.TextBoxFor(m => m.customer.LineOfBusiness, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.customer.LineOfBusiness)
+            </td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(m => m.customer.Email)
+                @Html.TextBoxFor(m => m.customer.Email, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.customer.Email)
+            </td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>
+                @Html.LabelFor(m => m.customer.StrTaxpayerType)
+                @Html.DropDownListFor(m => m.customer.StrTaxpayerType, new SelectList(Model.TaxPayerTypeList), "Select Tax Payer type", new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.customer.TaxPayer)
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                @Html.HiddenFor(m => m.customer.StrCustomerId)
+            </td>
+        </tr>
+    </table>
+
+    <table>
+
+        @if (Convert.ToString(Session[SessionStatus.Admin.ToString()]).Equals(SessionStatus.Admin.ToString()))
+        {
+            <tr>
+                <td> <h1 class="Customheader"> LOG-IN DETAILS </h1></td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(m => m.customer.Credentials.Username)
+                    @Html.TextBoxFor(m => m.customer.Credentials.Username, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.customer.Credentials.Username)
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(m => m.customer.Credentials.Password)
+                    @Html.TextBoxFor(m => m.customer.Credentials.Password, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.customer.Credentials.Password)
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(m => m.customer.Credentials.ConfirmPassword)
+                    @Html.TextBoxFor(m => m.customer.Credentials.ConfirmPassword, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.customer.Credentials.ConfirmPassword)
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        }
+        <tr>
+            <td>
+                <button type="submit" class="btn btn-primary">Save</button> &nbsp;
+                @Html.AntiForgeryToken()
+                <input type="button" class="btn btn-primary"
+                       value="Cancel"
+                       onclick="location.href='@Url.Action("Index", "Customer")'" />
+            </td>
+            <td></td>
+        </tr>
+    </table>
+    <p />
+    <p />
+    <p />
+
+    @*<div class="form-group">
+            @Html.DropDownListFor(m => m.CustomerId, new SelectList(Model.ListCustomers, "Id", "StrFullName"), "Select Company", new { @id = "testId", @class = "form-control" })
+
+        </div>
+
+        <table id="referrals" class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Customer</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+        </table>*@
+
+
+}
+@*<button id="addRow">ADD REFERRAL</button>*@
+
+@*@section scripts{
+        <script>
+            $(document).ready(function () {
+                var t = $('#referrals').DataTable();
+
+                $('#addRow').on('click', function () {
+
+                    if ($('#testId').val() != null) {
+                        $.ajax({
+                        url: "/api/customers/" + $('#testId').val(),
+                        method: "GET",
+                        dataType: "JSON",
+                        success: function (data) {
+                            t.row.add([
+                               data.StrFullName,
+                                "test",
+                            ]).draw(false);
+                        }
+                    });
+                    }
+
+
+                });
+
+                // Automatically add a first row of data
+                //$('#addRow').click();
+            });
+        </script>
+
+    }*@
+
+
+
+

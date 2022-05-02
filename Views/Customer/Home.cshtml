@@ -1,0 +1,52 @@
+﻿@model CustomerViewModel
+@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="CustomheaderBold">Welcome, @Model.customer.Firstname  @Model.customer.Lastname </h2>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                <h3> Business Info: </h3>
+            </td>
+            <td>
+                <h3> &nbsp; @Model.customer.Businessname </h3>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3> Business Address: </h3>
+            </td>
+            <td>
+                <h3> &nbsp; @Model.customer.Address </h3>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3> Tin Number: </h3>
+            </td>
+            <td>
+                <h3> &nbsp; @Model.customer.TinNumber </h3>
+            </td>
+        </tr>
+    </table>
+</div>
+<p />
+<br />
+<input type="button" class="btn-primary" value="EDIT PROFILE" onclick="location.href='@Url.Action("Edit", "Customer")'" />
+
+<p />
+<br />
+<div>
+    <table id="referrals" class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Referral</th>
+            </tr>
+        </thead>
+    </table>
+
+</div>

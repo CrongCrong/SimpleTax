@@ -1,0 +1,217 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+.Customheader {
+    padding: 30px;
+    color: black;
+    font-size: 30px;
+    font-family: CairoFontCustom;
+}
+
+.CustomheaderBold {
+    padding: 10px;
+    color: black;
+    font-size: 60px;
+    font-family: CairoFontCustomBold;
+}
+
+
+.CustomheaderWhite {
+    padding: 30px;
+    color: white;
+    font-size: 30px;
+    font-family: CairoFontCustom;
+}
+
+.CustomheaderBoldWhite {
+    padding: 10px;
+    color: white;
+    font-size: 60px;
+    font-family: CairoFontCustomBold;
+}
+
+.CustomerHeaderBoldColored {
+    color: #e91576;
+    padding: 10px;
+    font-size: 60px;
+    font-family: CairoFontCustomBold;
+}
+
+@font-face {
+    font-family: "CairoFontCustom";
+    src: url(../fonts/Cairo-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "CairoFontCustomBold";
+    src: url(../fonts/Cairo-Bold.ttf) format("truetype");
+}
+
+/*CUSTOM STYLE FROM WEB*/
+
+.field-validation-error {
+    color: red;
+    font-size: small;
+}
+
+.input-validation-error {
+    border: 2px solid red;
+    font-size: small;
+}
+
+.validation-summary-errors {
+    color: red;
+    font-size: xx-small;
+}
+
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+
+
+.main-head {
+    height: 50px;
+    background: #FFF;
+}
+
+.sidenav {
+    height: 100%;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 40px;
+}
+
+
+.main {
+    padding: 0px 70px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 5px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .login-form {
+        margin-top: 10%;
+    }
+
+    .register-form {
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .main {
+        margin-left: 40%;
+    }
+
+    .sidenav {
+        width: 30%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+    .login-form {
+        margin-top: 35%;
+    }
+
+    .register-form {
+        margin-top: 20%;
+    }
+}
+
+
+.login-main-text {
+    margin-top: 20%;
+    padding: 60px;
+    color: #fff;
+}
+
+    .login-main-text h2 {
+        font-weight: 300;
+    }
+
+.btn-black {
+    background-color: #ffa700 !important;
+    color: #fff;
+}
+
+a.btn.btn-hero.fuschia {
+    border: 2px solid #e91576 !important;
+    background: #e91576 !important;
+    border-radius: 30px !important;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+.container_custom_div {
+    font-family: arial;
+    font-size: 24px;
+    margin: 25px;
+    width: 350px;
+    height: 200px;
+    outline: dashed 1px black;
+    /* Center child horizontally*/
+    display: flex;
+    justify-content: center;
+}
+
+
+.child_custom_div {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+body_custom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+
+.square {
+    background-color: #2ecc71;
+    width: 200px;
+    height: 200px;
+}
+
+a:hover {
+    background-color: lightgreen;
+}
