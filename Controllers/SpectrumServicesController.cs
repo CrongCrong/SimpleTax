@@ -103,7 +103,7 @@ namespace SimpleTax.Controllers
             }
 
 
-                    return View(foc);
+            return View(foc);
 
         }
 
