@@ -8,8 +8,9 @@ namespace SimpleTax
 
         }
 
-        public string fhccBoxesSoldDaily { get; set; }
+        public string FhccBoxesSoldDaily { get; set; }
 
+        public string FhccBoxesSoldMonthly { get; set; }
 
     }
 }

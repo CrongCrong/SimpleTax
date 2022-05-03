@@ -292,8 +292,14 @@ namespace SimpleTax
 
         }
 
-        public static List<DirectSalesDaily> GetDirectSalesDailyBoxesSold(string strDateNow, string strDateUpTo)
+        public static List<DirectSalesDaily> GetDirectSalesDailyBoxesSold(string strDateUpTo)
         {
+            string strDay = "1";
+            int iMonth = DateTime.Now.Month;
+            int iYear = DateTime.Now.Year;
+
+            string strDateNow = iMonth.ToString() + "/" + strDay + "/" + iYear.ToString();
+
             DateTime dteNow = DateTime.Parse(strDateNow);
             DateTime dteDateUpTo = DateTime.Parse(strDateUpTo);
             List<DirectSalesDaily> lstDS = new List<DirectSalesDaily>();

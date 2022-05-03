@@ -81,6 +81,7 @@ namespace SimpleTax.Controllers
             FHCCOverviewControl foc = new FHCCOverviewControl();
 
             List<DirectSalesDaily> ListDirectSales = DatabaseHelpers.GetDirectSalesDailyBoxesSold();
+            List<DirectSalesDaily> ListDirectSalesMonthly = DatabaseHelpers.GetDirectSalesDailyBoxesSold(DateTime.Now.ToShortDateString());
 
             List<Products> ProductsForReference = DatabaseHelpers.LoadProductList();
 
@@ -96,7 +97,7 @@ namespace SimpleTax.Controllers
                                 if (!string.IsNullOrEmpty(prdDs.Qty))
                                     pro.Qty += Convert.ToDouble(prdDs.Qty);
 
-                                foc.fhccBoxesSoldDaily = pro.Qty.ToString();
+                                foc.FhccBoxesSoldDaily = pro.Qty.ToString();
                             }
                     }
                 }
