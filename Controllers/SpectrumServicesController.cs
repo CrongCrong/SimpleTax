@@ -76,7 +76,7 @@ namespace SimpleTax.Controllers
         public ActionResult FHCC_Overview()
         {
             if (string.IsNullOrEmpty(Convert.ToString(Session["userId"])))
-                return RedirectToAction("Home", "SpectrumServices");
+                return RedirectToAction("Home", "SpectrumServices"); 
 
             FHCCOverviewControl foc = new FHCCOverviewControl();
 
