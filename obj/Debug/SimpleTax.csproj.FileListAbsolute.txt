@@ -1,0 +1,226 @@
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/SimpleTax.dll.config
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/SimpleTax.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/SimpleTax.pdb
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/csc.exe
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/csc.exe.config
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/csc.rsp
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/csi.exe
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/csi.exe.config
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/csi.rsp
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/Microsoft.CodeAnalysis.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/Microsoft.CSharp.Core.targets
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/Microsoft.Managed.Core.targets
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/Microsoft.VisualBasic.Core.targets
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/System.AppContext.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/System.Collections.Immutable.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/System.Console.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/System.Diagnostics.FileVersionInfo.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/System.Diagnostics.StackTrace.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/System.IO.Compression.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/System.IO.FileSystem.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/System.IO.FileSystem.Primitives.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/System.IO.Pipes.AccessControl.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/System.IO.Pipes.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/System.Reflection.Metadata.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/System.Security.AccessControl.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/System.Security.Claims.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/System.Security.Cryptography.Algorithms.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/System.Security.Cryptography.Encoding.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/System.Security.Cryptography.Primitives.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/System.Security.Cryptography.X509Certificates.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/System.Security.Principal.Windows.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/System.Text.Encoding.CodePages.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/System.ValueTuple.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/System.Xml.ReaderWriter.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/System.Xml.XmlDocument.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/System.Xml.XPath.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/System.Xml.XPath.XDocument.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/vbc.exe
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/vbc.exe.config
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/vbc.rsp
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/VBCSCompiler.exe
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/roslyn/VBCSCompiler.exe.config
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/Antlr3.Runtime.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/Crc32C.NET.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/DnsClient.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/Microsoft.Web.Infrastructure.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/MongoDB.Bson.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/MongoDB.Driver.Core.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/MongoDB.Driver.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/Newtonsoft.Json.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/SharpCompress.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/Snappy.NET.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Buffers.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Web.Helpers.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Web.Mvc.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Web.Optimization.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Web.Razor.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Web.WebPages.Deployment.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Web.WebPages.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Web.WebPages.Razor.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/WebGrease.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/Crc32C.NET.xml
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/DnsClient.xml
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/MongoDB.Bson.xml
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/MongoDB.Driver.xml
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/MongoDB.Driver.Core.xml
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/Snappy.NET.xml
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Buffers.xml
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Web.Helpers.xml
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Web.Mvc.xml
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Web.Optimization.xml
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Web.Razor.xml
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Web.WebPages.xml
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Web.WebPages.Deployment.xml
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Web.WebPages.Razor.xml
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/Newtonsoft.Json.xml
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/Antlr3.Runtime.pdb
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:/Users/Prince Ocenar/source/repos/SimpleTax/obj/Debug/SimpleTax.csprojAssemblyReference.cache
+C:/Users/Prince Ocenar/source/repos/SimpleTax/obj/Debug/SimpleTax.csproj.CoreCompileInputs.cache
+C:/Users/Prince Ocenar/source/repos/SimpleTax/obj/Debug/SimpleTax.csproj.CopyComplete
+C:/Users/Prince Ocenar/source/repos/SimpleTax/obj/Debug/SimpleTax.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/obj/Debug/SimpleTax.pdb
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Net.Http.Formatting.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Web.Http.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Web.Http.WebHost.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Net.Http.Formatting.xml
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Web.Http.xml
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Web.Http.WebHost.xml
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/EntityFramework.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Web.Providers.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/EntityFramework.xml
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Web.Providers.xml
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Data.Common.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Diagnostics.StackTrace.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Diagnostics.Tracing.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Globalization.Extensions.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.IO.Compression.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Net.Http.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Net.Sockets.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Runtime.Serialization.Primitives.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Security.Cryptography.Algorithms.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Security.SecureString.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Threading.Overlapped.dll
+C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Xml.XPath.XDocument.dll
+/Users/Manu/Downloads/SimpleTax/bin/SimpleTax.dll
+/Users/Manu/Downloads/SimpleTax/bin/SimpleTax.pdb
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/csc.exe
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/csc.exe.config
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/csc.rsp
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/csi.exe
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/csi.exe.config
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/csi.rsp
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/Microsoft.CodeAnalysis.dll
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/Microsoft.CSharp.Core.targets
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/Microsoft.Managed.Core.targets
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/Microsoft.VisualBasic.Core.targets
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/System.AppContext.dll
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/System.Collections.Immutable.dll
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/System.Console.dll
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/System.Diagnostics.FileVersionInfo.dll
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/System.Diagnostics.StackTrace.dll
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/System.IO.Compression.dll
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/System.IO.FileSystem.dll
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/System.IO.FileSystem.Primitives.dll
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/System.IO.Pipes.AccessControl.dll
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/System.IO.Pipes.dll
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/System.Reflection.Metadata.dll
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/System.Security.AccessControl.dll
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/System.Security.Claims.dll
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/System.Security.Cryptography.Algorithms.dll
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/System.Security.Cryptography.Encoding.dll
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/System.Security.Cryptography.Primitives.dll
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/System.Security.Cryptography.X509Certificates.dll
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/System.Security.Principal.Windows.dll
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/System.Text.Encoding.CodePages.dll
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/System.ValueTuple.dll
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/System.Xml.ReaderWriter.dll
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/System.Xml.XmlDocument.dll
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/System.Xml.XPath.dll
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/System.Xml.XPath.XDocument.dll
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/vbc.exe
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/vbc.exe.config
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/vbc.rsp
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/VBCSCompiler.exe
+/Users/Manu/Downloads/SimpleTax/bin/roslyn/VBCSCompiler.exe.config
+/Users/Manu/Downloads/SimpleTax/bin/System.Data.Common.dll
+/Users/Manu/Downloads/SimpleTax/bin/System.Diagnostics.StackTrace.dll
+/Users/Manu/Downloads/SimpleTax/bin/System.Diagnostics.Tracing.dll
+/Users/Manu/Downloads/SimpleTax/bin/System.Globalization.Extensions.dll
+/Users/Manu/Downloads/SimpleTax/bin/System.IO.Compression.dll
+/Users/Manu/Downloads/SimpleTax/bin/System.Net.Http.dll
+/Users/Manu/Downloads/SimpleTax/bin/System.Net.Sockets.dll
+/Users/Manu/Downloads/SimpleTax/bin/System.Runtime.Serialization.Primitives.dll
+/Users/Manu/Downloads/SimpleTax/bin/System.Security.Cryptography.Algorithms.dll
+/Users/Manu/Downloads/SimpleTax/bin/System.Security.SecureString.dll
+/Users/Manu/Downloads/SimpleTax/bin/System.Threading.Overlapped.dll
+/Users/Manu/Downloads/SimpleTax/bin/System.Xml.XPath.XDocument.dll
+/Users/Manu/Downloads/SimpleTax/bin/Antlr3.Runtime.dll
+/Users/Manu/Downloads/SimpleTax/bin/Crc32C.NET.dll
+/Users/Manu/Downloads/SimpleTax/bin/DnsClient.dll
+/Users/Manu/Downloads/SimpleTax/bin/EntityFramework.dll
+/Users/Manu/Downloads/SimpleTax/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+/Users/Manu/Downloads/SimpleTax/bin/Microsoft.Web.Infrastructure.dll
+/Users/Manu/Downloads/SimpleTax/bin/MongoDB.Bson.dll
+/Users/Manu/Downloads/SimpleTax/bin/MongoDB.Driver.Core.dll
+/Users/Manu/Downloads/SimpleTax/bin/MongoDB.Driver.dll
+/Users/Manu/Downloads/SimpleTax/bin/Newtonsoft.Json.dll
+/Users/Manu/Downloads/SimpleTax/bin/SharpCompress.dll
+/Users/Manu/Downloads/SimpleTax/bin/Snappy.NET.dll
+/Users/Manu/Downloads/SimpleTax/bin/System.Buffers.dll
+/Users/Manu/Downloads/SimpleTax/bin/System.Net.Http.Formatting.dll
+/Users/Manu/Downloads/SimpleTax/bin/System.Runtime.InteropServices.RuntimeInformation.dll
+/Users/Manu/Downloads/SimpleTax/bin/System.Web.Helpers.dll
+/Users/Manu/Downloads/SimpleTax/bin/System.Web.Http.dll
+/Users/Manu/Downloads/SimpleTax/bin/System.Web.Http.WebHost.dll
+/Users/Manu/Downloads/SimpleTax/bin/System.Web.Mvc.dll
+/Users/Manu/Downloads/SimpleTax/bin/System.Web.Optimization.dll
+/Users/Manu/Downloads/SimpleTax/bin/System.Web.Providers.dll
+/Users/Manu/Downloads/SimpleTax/bin/System.Web.Razor.dll
+/Users/Manu/Downloads/SimpleTax/bin/System.Web.WebPages.Deployment.dll
+/Users/Manu/Downloads/SimpleTax/bin/System.Web.WebPages.dll
+/Users/Manu/Downloads/SimpleTax/bin/System.Web.WebPages.Razor.dll
+/Users/Manu/Downloads/SimpleTax/bin/WebGrease.dll
+/Users/Manu/Downloads/SimpleTax/bin/Crc32C.NET.xml
+/Users/Manu/Downloads/SimpleTax/bin/DnsClient.xml
+/Users/Manu/Downloads/SimpleTax/bin/EntityFramework.xml
+/Users/Manu/Downloads/SimpleTax/bin/MongoDB.Bson.xml
+/Users/Manu/Downloads/SimpleTax/bin/MongoDB.Driver.xml
+/Users/Manu/Downloads/SimpleTax/bin/MongoDB.Driver.Core.xml
+/Users/Manu/Downloads/SimpleTax/bin/Snappy.NET.xml
+/Users/Manu/Downloads/SimpleTax/bin/System.Buffers.xml
+/Users/Manu/Downloads/SimpleTax/bin/System.Net.Http.Formatting.xml
+/Users/Manu/Downloads/SimpleTax/bin/System.Web.Http.xml
+/Users/Manu/Downloads/SimpleTax/bin/System.Web.Http.WebHost.xml
+/Users/Manu/Downloads/SimpleTax/bin/System.Web.Providers.xml
+/Users/Manu/Downloads/SimpleTax/bin/System.Web.Helpers.xml
+/Users/Manu/Downloads/SimpleTax/bin/System.Web.Mvc.xml
+/Users/Manu/Downloads/SimpleTax/bin/System.Web.Optimization.xml
+/Users/Manu/Downloads/SimpleTax/bin/System.Web.Razor.xml
+/Users/Manu/Downloads/SimpleTax/bin/System.Web.WebPages.xml
+/Users/Manu/Downloads/SimpleTax/bin/System.Web.WebPages.Deployment.xml
+/Users/Manu/Downloads/SimpleTax/bin/System.Web.WebPages.Razor.xml
+/Users/Manu/Downloads/SimpleTax/bin/Newtonsoft.Json.xml
+/Users/Manu/Downloads/SimpleTax/bin/Antlr3.Runtime.pdb
+/Users/Manu/Downloads/SimpleTax/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+/Users/Manu/Downloads/SimpleTax/obj/Debug/SimpleTax.csproj.AssemblyReference.cache
+/Users/Manu/Downloads/SimpleTax/obj/Debug/SimpleTax.csproj.CoreCompileInputs.cache
+/Users/Manu/Downloads/SimpleTax/obj/Debug/SimpleTax.csproj.CopyComplete
+/Users/Manu/Downloads/SimpleTax/obj/Debug/SimpleTax.dll
+/Users/Manu/Downloads/SimpleTax/obj/Debug/SimpleTax.pdb
