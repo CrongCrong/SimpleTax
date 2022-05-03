@@ -23,7 +23,7 @@ namespace SimpleTax
        Builders<Customer>.Filter.Where(p => p.IsDeleted == false),
        Builders<Customer>.Filter.Where(p => p.Credentials.IsAdmin == false));
 
-                listCustomers = collection.Find(filter).ToList();
+                listCustomers = collection.Find(filter).ToList();   
 
                 foreach (Customer ee in listCustomers)
                 {
