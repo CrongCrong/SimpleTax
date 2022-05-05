@@ -12,18 +12,7 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SimpleTax" expanded="True" selected="True">
-            <Node name="SimpleTax" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="CustomValidation" expanded="True" />
-                <Node name="Helpers" expanded="True" />
-              </Node>
-              <Node name="ViewModels" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Customer" expanded="True" />
-                <Node name="SpectrumServices" expanded="True" />
-              </Node>
-            </Node>
+            <Node name="SimpleTax" expanded="True" />
           </Node>
         </State>
       </Pad>
