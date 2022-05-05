@@ -1,5 +1,5 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{C5BFD537-22CA-4F89-9056-7C88CCD5960B}|">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/FHCCOverviewControl.cs">
     <Files>
       <File FileName="Models/Helpers/DatabaseHelpers.cs" Line="268" Column="68" IsPinned="True" />
       <File FileName="Controllers/SpectrumServicesController.cs" />
@@ -7,12 +7,18 @@
       <File FileName="ViewModels/SearchDateViewModel.cs" />
       <File FileName="Views/Customer/CustomerInfo.cshtml" />
       <File FileName="Controllers/CustomerController.cs" />
+      <File FileName="Models/FHCCOverviewControl.cs" Line="27" Column="15" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="SimpleTax" expanded="True" selected="True">
-            <Node name="SimpleTax" expanded="True" />
+          <Node name="SimpleTax" expanded="True">
+            <Node name="SimpleTax" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="Helpers" expanded="True" />
+                <Node name="FHCCOverviewControl.cs" selected="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
