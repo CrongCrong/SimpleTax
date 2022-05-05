@@ -4,9 +4,8 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace SimpleTax
 {
-    public class FHCCOverviewControl
+    public class SearchDateViewModel
     {
-
         public string FhccBoxesSoldDaily { get; set; }
 
         public string FhccBoxesSoldMonthly { get; set; }
@@ -20,7 +19,5 @@ namespace SimpleTax
         [Required(ErrorMessage = "Please enter date.")]
         [BsonDateTimeOptions(Kind = DateTimeKind.Local)]
         public DateTime ToDate { get; set; }
-
-        public SearchDateViewModel  search { get; set; }
     }
 }

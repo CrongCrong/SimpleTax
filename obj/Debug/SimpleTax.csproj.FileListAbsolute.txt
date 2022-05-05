@@ -224,116 +224,228 @@ C:/Users/Prince Ocenar/source/repos/SimpleTax/bin/System.Xml.XPath.XDocument.dll
 /Users/Manu/Downloads/SimpleTax/obj/Debug/SimpleTax.csproj.CopyComplete
 /Users/Manu/Downloads/SimpleTax/obj/Debug/SimpleTax.dll
 /Users/Manu/Downloads/SimpleTax/obj/Debug/SimpleTax.pdb
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\obj\Debug\SimpleTax.csprojAssemblyReference.cache
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\obj\Debug\SimpleTax.csproj.CoreCompileInputs.cache
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\SimpleTax.dll.config
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\SimpleTax.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\SimpleTax.pdb
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\csc.exe
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\csc.exe.config
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\csc.rsp
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\csi.exe
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\csi.exe.config
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\csi.rsp
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\Microsoft.Managed.Core.targets
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\System.AppContext.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\System.Console.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\System.IO.Compression.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\System.IO.Pipes.AccessControl.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\System.IO.Pipes.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\System.Security.AccessControl.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\System.Security.Claims.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\System.Security.Principal.Windows.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\System.ValueTuple.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\System.Xml.XPath.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\vbc.exe
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\vbc.exe.config
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\vbc.rsp
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\VBCSCompiler.exe
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Data.Common.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Diagnostics.StackTrace.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Diagnostics.Tracing.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Globalization.Extensions.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.IO.Compression.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Net.Http.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Net.Sockets.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Runtime.Serialization.Primitives.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Security.Cryptography.Algorithms.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Security.SecureString.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Threading.Overlapped.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Xml.XPath.XDocument.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\Antlr3.Runtime.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\Crc32C.NET.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\DnsClient.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\EntityFramework.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\MongoDB.Bson.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\MongoDB.Driver.Core.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\MongoDB.Driver.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\Newtonsoft.Json.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\SharpCompress.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\Snappy.NET.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Buffers.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Net.Http.Formatting.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Web.Helpers.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Web.Http.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Web.Http.WebHost.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Web.Mvc.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Web.Optimization.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Web.Providers.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Web.Razor.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Web.WebPages.Deployment.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Web.WebPages.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Web.WebPages.Razor.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\WebGrease.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\Crc32C.NET.xml
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\DnsClient.xml
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\EntityFramework.xml
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\MongoDB.Bson.xml
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\MongoDB.Driver.xml
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\MongoDB.Driver.Core.xml
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\Snappy.NET.xml
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Buffers.xml
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Net.Http.Formatting.xml
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Web.Http.xml
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Web.Http.WebHost.xml
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Web.Providers.xml
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Web.Helpers.xml
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Web.Mvc.xml
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Web.Optimization.xml
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Web.Razor.xml
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Web.WebPages.xml
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Web.WebPages.Deployment.xml
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\System.Web.WebPages.Razor.xml
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\Newtonsoft.Json.xml
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\Antlr3.Runtime.pdb
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\obj\Debug\SimpleTax.csproj.CopyComplete
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\obj\Debug\SimpleTax.dll
-C:\Users\ocena\OneDrive\Documents\SPECTRUM PROGRAM\SimpleTax\obj\Debug\SimpleTax.pdb
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/obj/Debug/SimpleTax.csprojAssemblyReference.cache
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/obj/Debug/SimpleTax.csproj.CoreCompileInputs.cache
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/SimpleTax.dll.config
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/SimpleTax.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/SimpleTax.pdb
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/csc.exe
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/csc.exe.config
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/csc.rsp
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/csi.exe
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/csi.exe.config
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/csi.rsp
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/Microsoft.CodeAnalysis.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/Microsoft.CSharp.Core.targets
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/Microsoft.Managed.Core.targets
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/Microsoft.VisualBasic.Core.targets
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/System.AppContext.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/System.Collections.Immutable.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/System.Console.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/System.Diagnostics.FileVersionInfo.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/System.Diagnostics.StackTrace.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/System.IO.Compression.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/System.IO.FileSystem.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/System.IO.FileSystem.Primitives.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/System.IO.Pipes.AccessControl.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/System.IO.Pipes.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/System.Reflection.Metadata.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/System.Security.AccessControl.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/System.Security.Claims.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/System.Security.Cryptography.Algorithms.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/System.Security.Cryptography.Encoding.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/System.Security.Cryptography.Primitives.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/System.Security.Cryptography.X509Certificates.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/System.Security.Principal.Windows.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/System.Text.Encoding.CodePages.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/System.ValueTuple.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/System.Xml.ReaderWriter.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/System.Xml.XmlDocument.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/System.Xml.XPath.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/System.Xml.XPath.XDocument.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/vbc.exe
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/vbc.exe.config
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/vbc.rsp
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/VBCSCompiler.exe
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/roslyn/VBCSCompiler.exe.config
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Data.Common.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Diagnostics.StackTrace.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Diagnostics.Tracing.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Globalization.Extensions.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.IO.Compression.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Net.Http.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Net.Sockets.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Runtime.Serialization.Primitives.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Security.Cryptography.Algorithms.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Security.SecureString.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Threading.Overlapped.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Xml.XPath.XDocument.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/Antlr3.Runtime.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/Crc32C.NET.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/DnsClient.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/EntityFramework.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/Microsoft.Web.Infrastructure.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/MongoDB.Bson.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/MongoDB.Driver.Core.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/MongoDB.Driver.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/Newtonsoft.Json.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/SharpCompress.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/Snappy.NET.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Buffers.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Net.Http.Formatting.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Web.Helpers.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Web.Http.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Web.Http.WebHost.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Web.Mvc.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Web.Optimization.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Web.Providers.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Web.Razor.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Web.WebPages.Deployment.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Web.WebPages.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Web.WebPages.Razor.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/WebGrease.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/Crc32C.NET.xml
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/DnsClient.xml
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/EntityFramework.xml
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/MongoDB.Bson.xml
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/MongoDB.Driver.xml
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/MongoDB.Driver.Core.xml
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/Snappy.NET.xml
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Buffers.xml
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Net.Http.Formatting.xml
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Web.Http.xml
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Web.Http.WebHost.xml
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Web.Providers.xml
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Web.Helpers.xml
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Web.Mvc.xml
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Web.Optimization.xml
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Web.Razor.xml
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Web.WebPages.xml
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Web.WebPages.Deployment.xml
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/System.Web.WebPages.Razor.xml
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/Newtonsoft.Json.xml
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/Antlr3.Runtime.pdb
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/obj/Debug/SimpleTax.csproj.CopyComplete
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/obj/Debug/SimpleTax.dll
+C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/obj/Debug/SimpleTax.pdb
+/Users/Manu/Projects/SimpleTax/bin/SimpleTax.dll
+/Users/Manu/Projects/SimpleTax/bin/SimpleTax.pdb
+/Users/Manu/Projects/SimpleTax/bin/roslyn/csc.exe
+/Users/Manu/Projects/SimpleTax/bin/roslyn/csc.exe.config
+/Users/Manu/Projects/SimpleTax/bin/roslyn/csc.rsp
+/Users/Manu/Projects/SimpleTax/bin/roslyn/csi.exe
+/Users/Manu/Projects/SimpleTax/bin/roslyn/csi.exe.config
+/Users/Manu/Projects/SimpleTax/bin/roslyn/csi.rsp
+/Users/Manu/Projects/SimpleTax/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+/Users/Manu/Projects/SimpleTax/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
+/Users/Manu/Projects/SimpleTax/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+/Users/Manu/Projects/SimpleTax/bin/roslyn/Microsoft.CodeAnalysis.dll
+/Users/Manu/Projects/SimpleTax/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll
+/Users/Manu/Projects/SimpleTax/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
+/Users/Manu/Projects/SimpleTax/bin/roslyn/Microsoft.CSharp.Core.targets
+/Users/Manu/Projects/SimpleTax/bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll
+/Users/Manu/Projects/SimpleTax/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll
+/Users/Manu/Projects/SimpleTax/bin/roslyn/Microsoft.Managed.Core.targets
+/Users/Manu/Projects/SimpleTax/bin/roslyn/Microsoft.VisualBasic.Core.targets
+/Users/Manu/Projects/SimpleTax/bin/roslyn/System.AppContext.dll
+/Users/Manu/Projects/SimpleTax/bin/roslyn/System.Collections.Immutable.dll
+/Users/Manu/Projects/SimpleTax/bin/roslyn/System.Console.dll
+/Users/Manu/Projects/SimpleTax/bin/roslyn/System.Diagnostics.FileVersionInfo.dll
+/Users/Manu/Projects/SimpleTax/bin/roslyn/System.Diagnostics.StackTrace.dll
+/Users/Manu/Projects/SimpleTax/bin/roslyn/System.IO.Compression.dll
+/Users/Manu/Projects/SimpleTax/bin/roslyn/System.IO.FileSystem.dll
+/Users/Manu/Projects/SimpleTax/bin/roslyn/System.IO.FileSystem.Primitives.dll
+/Users/Manu/Projects/SimpleTax/bin/roslyn/System.IO.Pipes.AccessControl.dll
+/Users/Manu/Projects/SimpleTax/bin/roslyn/System.IO.Pipes.dll
+/Users/Manu/Projects/SimpleTax/bin/roslyn/System.Reflection.Metadata.dll
+/Users/Manu/Projects/SimpleTax/bin/roslyn/System.Security.AccessControl.dll
+/Users/Manu/Projects/SimpleTax/bin/roslyn/System.Security.Claims.dll
+/Users/Manu/Projects/SimpleTax/bin/roslyn/System.Security.Cryptography.Algorithms.dll
+/Users/Manu/Projects/SimpleTax/bin/roslyn/System.Security.Cryptography.Encoding.dll
+/Users/Manu/Projects/SimpleTax/bin/roslyn/System.Security.Cryptography.Primitives.dll
+/Users/Manu/Projects/SimpleTax/bin/roslyn/System.Security.Cryptography.X509Certificates.dll
+/Users/Manu/Projects/SimpleTax/bin/roslyn/System.Security.Principal.Windows.dll
+/Users/Manu/Projects/SimpleTax/bin/roslyn/System.Text.Encoding.CodePages.dll
+/Users/Manu/Projects/SimpleTax/bin/roslyn/System.ValueTuple.dll
+/Users/Manu/Projects/SimpleTax/bin/roslyn/System.Xml.ReaderWriter.dll
+/Users/Manu/Projects/SimpleTax/bin/roslyn/System.Xml.XmlDocument.dll
+/Users/Manu/Projects/SimpleTax/bin/roslyn/System.Xml.XPath.dll
+/Users/Manu/Projects/SimpleTax/bin/roslyn/System.Xml.XPath.XDocument.dll
+/Users/Manu/Projects/SimpleTax/bin/roslyn/vbc.exe
+/Users/Manu/Projects/SimpleTax/bin/roslyn/vbc.exe.config
+/Users/Manu/Projects/SimpleTax/bin/roslyn/vbc.rsp
+/Users/Manu/Projects/SimpleTax/bin/roslyn/VBCSCompiler.exe
+/Users/Manu/Projects/SimpleTax/bin/roslyn/VBCSCompiler.exe.config
+/Users/Manu/Projects/SimpleTax/bin/System.Data.Common.dll
+/Users/Manu/Projects/SimpleTax/bin/System.Diagnostics.StackTrace.dll
+/Users/Manu/Projects/SimpleTax/bin/System.Diagnostics.Tracing.dll
+/Users/Manu/Projects/SimpleTax/bin/System.Globalization.Extensions.dll
+/Users/Manu/Projects/SimpleTax/bin/System.IO.Compression.dll
+/Users/Manu/Projects/SimpleTax/bin/System.Net.Http.dll
+/Users/Manu/Projects/SimpleTax/bin/System.Net.Sockets.dll
+/Users/Manu/Projects/SimpleTax/bin/System.Runtime.Serialization.Primitives.dll
+/Users/Manu/Projects/SimpleTax/bin/System.Security.Cryptography.Algorithms.dll
+/Users/Manu/Projects/SimpleTax/bin/System.Security.SecureString.dll
+/Users/Manu/Projects/SimpleTax/bin/System.Threading.Overlapped.dll
+/Users/Manu/Projects/SimpleTax/bin/System.Xml.XPath.XDocument.dll
+/Users/Manu/Projects/SimpleTax/bin/Antlr3.Runtime.dll
+/Users/Manu/Projects/SimpleTax/bin/Crc32C.NET.dll
+/Users/Manu/Projects/SimpleTax/bin/DnsClient.dll
+/Users/Manu/Projects/SimpleTax/bin/EntityFramework.dll
+/Users/Manu/Projects/SimpleTax/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+/Users/Manu/Projects/SimpleTax/bin/Microsoft.Web.Infrastructure.dll
+/Users/Manu/Projects/SimpleTax/bin/MongoDB.Bson.dll
+/Users/Manu/Projects/SimpleTax/bin/MongoDB.Driver.Core.dll
+/Users/Manu/Projects/SimpleTax/bin/MongoDB.Driver.dll
+/Users/Manu/Projects/SimpleTax/bin/Newtonsoft.Json.dll
+/Users/Manu/Projects/SimpleTax/bin/SharpCompress.dll
+/Users/Manu/Projects/SimpleTax/bin/Snappy.NET.dll
+/Users/Manu/Projects/SimpleTax/bin/System.Buffers.dll
+/Users/Manu/Projects/SimpleTax/bin/System.Net.Http.Formatting.dll
+/Users/Manu/Projects/SimpleTax/bin/System.Runtime.InteropServices.RuntimeInformation.dll
+/Users/Manu/Projects/SimpleTax/bin/System.Web.Helpers.dll
+/Users/Manu/Projects/SimpleTax/bin/System.Web.Http.dll
+/Users/Manu/Projects/SimpleTax/bin/System.Web.Http.WebHost.dll
+/Users/Manu/Projects/SimpleTax/bin/System.Web.Mvc.dll
+/Users/Manu/Projects/SimpleTax/bin/System.Web.Optimization.dll
+/Users/Manu/Projects/SimpleTax/bin/System.Web.Providers.dll
+/Users/Manu/Projects/SimpleTax/bin/System.Web.Razor.dll
+/Users/Manu/Projects/SimpleTax/bin/System.Web.WebPages.Deployment.dll
+/Users/Manu/Projects/SimpleTax/bin/System.Web.WebPages.dll
+/Users/Manu/Projects/SimpleTax/bin/System.Web.WebPages.Razor.dll
+/Users/Manu/Projects/SimpleTax/bin/WebGrease.dll
+/Users/Manu/Projects/SimpleTax/bin/Crc32C.NET.xml
+/Users/Manu/Projects/SimpleTax/bin/DnsClient.xml
+/Users/Manu/Projects/SimpleTax/bin/EntityFramework.xml
+/Users/Manu/Projects/SimpleTax/bin/MongoDB.Bson.xml
+/Users/Manu/Projects/SimpleTax/bin/MongoDB.Driver.xml
+/Users/Manu/Projects/SimpleTax/bin/MongoDB.Driver.Core.xml
+/Users/Manu/Projects/SimpleTax/bin/Snappy.NET.xml
+/Users/Manu/Projects/SimpleTax/bin/System.Buffers.xml
+/Users/Manu/Projects/SimpleTax/bin/System.Net.Http.Formatting.xml
+/Users/Manu/Projects/SimpleTax/bin/System.Web.Http.xml
+/Users/Manu/Projects/SimpleTax/bin/System.Web.Http.WebHost.xml
+/Users/Manu/Projects/SimpleTax/bin/System.Web.Providers.xml
+/Users/Manu/Projects/SimpleTax/bin/System.Web.Helpers.xml
+/Users/Manu/Projects/SimpleTax/bin/System.Web.Mvc.xml
+/Users/Manu/Projects/SimpleTax/bin/System.Web.Optimization.xml
+/Users/Manu/Projects/SimpleTax/bin/System.Web.Razor.xml
+/Users/Manu/Projects/SimpleTax/bin/System.Web.WebPages.xml
+/Users/Manu/Projects/SimpleTax/bin/System.Web.WebPages.Deployment.xml
+/Users/Manu/Projects/SimpleTax/bin/System.Web.WebPages.Razor.xml
+/Users/Manu/Projects/SimpleTax/bin/Newtonsoft.Json.xml
+/Users/Manu/Projects/SimpleTax/bin/Antlr3.Runtime.pdb
+/Users/Manu/Projects/SimpleTax/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+/Users/Manu/Projects/SimpleTax/obj/Debug/SimpleTax.csproj.CoreCompileInputs.cache
+/Users/Manu/Projects/SimpleTax/obj/Debug/SimpleTax.csproj.CopyComplete
+/Users/Manu/Projects/SimpleTax/obj/Debug/SimpleTax.dll
+/Users/Manu/Projects/SimpleTax/obj/Debug/SimpleTax.pdb

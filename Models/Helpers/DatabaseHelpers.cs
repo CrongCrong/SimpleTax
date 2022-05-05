@@ -256,7 +256,7 @@ namespace SimpleTax
         public static List<DirectSalesDaily> GetDirectSalesDailyBoxesSold()
         {
             DateTime dteNow = DateTime.Parse("01/01/2021");
-            DateTime dteFirstDay = DateTime.Parse("03/31/2021");
+            DateTime dteFirstDay = DateTime.Parse("01/31/2021");
             //DateTime dteNow = DateTime.Parse(DateTime.Now.ToLocalTime().ToShortDateString());
             //DateTime dteFirstDay = DateTime.Parse(DateTime.Now.ToLocalTime().ToShortDateString());
             List<DirectSalesDaily> lstDS = new List<DirectSalesDaily>();
@@ -333,6 +333,42 @@ namespace SimpleTax
             }
             return ddOC = new List<DirectSalesDaily>(lstDS);
 
+        }
+
+        public static List<DirectSalesDaily> GetDirectSalesDailyBoxesSold(string fromDate, string toDate)
+        {
+            DateTime dteNow = DateTime.Parse(fromDate);
+            DateTime dteDateUpTo = DateTime.Parse(toDate);
+            List<DirectSalesDaily> lstDS = new List<DirectSalesDaily>();
+            List<DirectSalesDaily> ddOC;
+            try
+            {
+                var db = conDB.client.GetDatabase("DBFH");
+                var collection = db.GetCollection<DirectSalesDaily>("DirectSalesDaily");
+                var filter = Builders<DirectSalesDaily>.Filter.And(
+        Builders<DirectSalesDaily>.Filter.Where(p => p.isDeleted == false),
+        Builders<DirectSalesDaily>.Filter.Gte("DateOrdered", dteNow),
+         Builders<DirectSalesDaily>.Filter.Lte("DateOrdered", dteDateUpTo));
+
+                lstDS = collection.Find(filter).ToList();
+
+
+                //foreach (DirectSalesDaily ds in lstDS)
+                //{
+                //    ds.strClientFullName = ds.Client.LastName + ", " + ds.Client.FirstName;
+                //    ds.strBankName = ds.Bank.Description;
+
+                //    ds.strCancelled = ds.isCancelled ? "YES" : "NO";
+
+                //    ds.strDateOrdered = ds.DateOrdered.ToShortDateString();
+                //    ds.Client.strFullName = ds.Client.LastName + ", " + ds.Client.FirstName;
+                //}
+            }
+            catch (Exception ex)
+            {
+                Debug.Assert(true, ex.StackTrace);
+            }
+            return ddOC = new List<DirectSalesDaily>(lstDS);
         }
 
         public static List<Products> LoadProductList()

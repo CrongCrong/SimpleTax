@@ -19,7 +19,7 @@ namespace SimpleTax
             }
             catch (Exception e)
             {
-                return new ValidationResult("Invalid Date. Please input correct birth date.");
+                return new ValidationResult("Invalid Date. Please input correct date.");
             }
 
             if (DateTime.TryParse(t, out dteOut))
@@ -28,7 +28,7 @@ namespace SimpleTax
             }
             else
             {
-                return new ValidationResult("Invalid Date. Please input correct birth date.");
+                return new ValidationResult("Invalid Date. Please input correct date.");
             }
 
             //return !DateTime.TryParse(customer.BirthDate.ToShortDateString(), out dteOut) ? ValidationResult.Success :

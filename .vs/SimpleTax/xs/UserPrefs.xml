@@ -1,25 +1,26 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{C5BFD537-22CA-4F89-9056-7C88CCD5960B}|">
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Models/Helpers/DatabaseHelpers.cs" Line="19" Column="14" IsPinned="True" />
+      <File FileName="Models/Helpers/DatabaseHelpers.cs" Line="268" Column="68" IsPinned="True" />
       <File FileName="Controllers/SpectrumServicesController.cs" />
-      <File FileName="Models/FHCCOverviewControl.cs" Line="17" Column="1" />
       <File FileName="Views/SpectrumServices/FHCC_Overview.cshtml" />
-      <File FileName="Models/CustomValidation/ValidateCorrectDate.cs" />
+      <File FileName="ViewModels/SearchDateViewModel.cs" />
+      <File FileName="Views/Customer/CustomerInfo.cshtml" />
+      <File FileName="Controllers/CustomerController.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="SimpleTax" expanded="True">
+          <Node name="SimpleTax" expanded="True" selected="True">
             <Node name="SimpleTax" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="CustomerController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True">
                 <Node name="CustomValidation" expanded="True" />
                 <Node name="Helpers" expanded="True" />
               </Node>
+              <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
+                <Node name="Customer" expanded="True" />
                 <Node name="SpectrumServices" expanded="True" />
               </Node>
             </Node>
@@ -32,9 +33,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/Manu/Downloads/SimpleTax/Models/Helpers/DatabaseHelpers.cs" relfile="Models/Helpers/DatabaseHelpers.cs" line="301" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
