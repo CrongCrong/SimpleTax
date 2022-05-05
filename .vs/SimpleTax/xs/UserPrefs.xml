@@ -1,22 +1,27 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{C5BFD537-22CA-4F89-9056-7C88CCD5960B}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Models/FHCCOverviewControl.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/SpectrumServices/FHCC_Overview.cshtml">
     <Files>
       <File FileName="Models/Helpers/DatabaseHelpers.cs" Line="268" Column="68" IsPinned="True" />
-      <File FileName="Controllers/SpectrumServicesController.cs" />
-      <File FileName="Views/SpectrumServices/FHCC_Overview.cshtml" />
+      <File FileName="Controllers/SpectrumServicesController.cs" Line="210" Column="23" />
+      <File FileName="Views/SpectrumServices/FHCC_Overview.cshtml" Line="17" Column="1" />
       <File FileName="ViewModels/SearchDateViewModel.cs" />
       <File FileName="Views/Customer/CustomerInfo.cshtml" />
       <File FileName="Controllers/CustomerController.cs" />
-      <File FileName="Models/FHCCOverviewControl.cs" Line="27" Column="15" />
+      <File FileName="Models/FHCCOverviewControl.cs" Line="27" Column="18" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SimpleTax" expanded="True">
             <Node name="SimpleTax" expanded="True">
+              <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True">
                 <Node name="Helpers" expanded="True" />
-                <Node name="FHCCOverviewControl.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="SpectrumServices" expanded="True">
+                  <Node name="FHCC_Overview.cshtml" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
