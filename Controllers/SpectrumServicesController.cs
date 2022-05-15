@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using MongoDB.Bson;
 using SimpleTax;
 
 namespace SimpleTax.Controllers
@@ -84,52 +85,44 @@ namespace SimpleTax.Controllers
             List<DirectSalesDaily> ListDirectSalesMonthly = DatabaseHelpers.GetDirectSalesDailyBoxesSold(DateTime.Now.ToShortDateString());
 
             List<Products> ProductsForReference = DatabaseHelpers.LoadProductList();
-
-            //if (focc.search != null)
-            //{
-            //    foreach (DirectSalesDaily dsd in ListDirectSales)
-            //    {
-            //        foreach (ProductsOrderedDS prdDs in dsd.ProductsOrdered)
-            //        {
-            //            foreach (Products pro in ProductsForReference)
-            //            {
-            //                if (prdDs.Products != null)
-            //                    if (pro.Description.Equals(prdDs.Products.Description) && !dsd.isCancelled && !dsd.isDeleted)
-            //                    {
-            //                        if (!string.IsNullOrEmpty(prdDs.Qty))
-            //                        {
-            //                            pro.Qty += Convert.ToDouble(prdDs.Qty);
-            //                            focc.FhccBoxesSoldDaily = pro.Qty.ToString();
-            //                        }
-            //                    }
-            //            }
-            //        }
-            //    }
-
-            //    return View(focc);
-            //}
             
             SearchDateViewModel search = new SearchDateViewModel();
             search.FhccBoxesSoldDaily = "0";
             search.FhccBoxesSoldMonthly = "0";
+            double count = 0;
+
             foc.search = search;
+            ObjectId fhBox = ObjectId.Parse("5c5005be7973a5351c95c30f");
+            ObjectId fhBoxMC = ObjectId.Parse("5ddcf84a7973a551bcff145d");
 
             foreach (DirectSalesDaily dsd in ListDirectSales)
             {
                 foreach (ProductsOrderedDS prdDs in dsd.ProductsOrdered)
                 {
-                    foreach (Products pro in ProductsForReference)
+                    if ((prdDs.Products.Id.Equals(fhBoxMC) || prdDs.Products.Id.Equals(fhBox)) && !dsd.isCancelled && !dsd.isDeleted)
                     {
-                        if (prdDs.Products != null)
-                            if (pro.Description.Equals(prdDs.Products.Description) && !dsd.isCancelled && !dsd.isDeleted)
-                            {
-                                if (!string.IsNullOrEmpty(prdDs.Qty))
-                                {
-                                    pro.Qty += Convert.ToDouble(prdDs.Qty);
-                                    foc.FhccBoxesSoldDaily = pro.Qty.ToString();
-                                }   
-                            }
+                        if (!string.IsNullOrEmpty(prdDs.Qty))
+                        {
+                            count += Convert.ToDouble(prdDs.Qty);
+                            foc.FhccBoxesSoldDaily = count.ToString();
+                        }
                     }
+
+                    //foreach (Products pro in ProductsForReference)
+                    //{
+                    //    if (prdDs.Products != null)
+                    //    {
+                    //        if ((pro.Id.Equals(fhBoxMC) || pro.Id.Equals(fhBox)) && !dsd.isCancelled && !dsd.isDeleted)
+                    //        {
+                    //            if (!string.IsNullOrEmpty(prdDs.Qty))
+                    //            {
+                    //                pro.Qty += Convert.ToDouble(prdDs.Qty);
+                    //                foc.FhccBoxesSoldDaily = pro.Qty.ToString();
+                    //            }
+                    //        }
+                    //    }
+                           
+                    //}
                 }
             }
 
@@ -159,26 +152,40 @@ namespace SimpleTax.Controllers
 
                 FHCCOverviewControl foc = new FHCCOverviewControl();
                 List<Products> ProductsForReference = DatabaseHelpers.LoadProductList();
+                List<Products> ProductsForReference2 = ProductsForReference;
                 SearchDateViewModel svm = new SearchDateViewModel();
 
+                ObjectId fhBox = ObjectId.Parse("5c5005be7973a5351c95c30f");
+                ObjectId fhBoxMC = ObjectId.Parse("5ddcf84a7973a551bcff145d");
+
                 double count = 0;
+                double count2 = 0;
+
                 foreach (DirectSalesDaily dsd in DirectSalesSalesCustom)
                 {
                     foreach (ProductsOrderedDS prdDs in dsd.ProductsOrdered)
                     {
-                        foreach (Products pro in ProductsForReference)
+                        if ((prdDs.Products.Id.Equals(fhBoxMC) || prdDs.Products.Id.Equals(fhBox)) && !dsd.isCancelled && !dsd.isDeleted)
                         {
-                            if (prdDs.Products != null)
-                                if (pro.Description.Equals(prdDs.Products.Description) && !dsd.isCancelled && !dsd.isDeleted)
-                                {
-                                    if (!string.IsNullOrEmpty(prdDs.Qty))
-                                    {
-                                        pro.Qty += Convert.ToDouble(prdDs.Qty);
-                                        count = pro.Qty;
-                                    }
-                                       
-                                }
+                            if (!string.IsNullOrEmpty(prdDs.Qty))
+                            {
+                                count += Convert.ToDouble(prdDs.Qty);
+                                foc.FhccBoxesSoldDaily = count2.ToString();
+                            }
                         }
+                        //foreach (Products pro in ProductsForReference)
+                        //{
+                        //    if (prdDs.Products != null)
+                        //        if (pro.Description.Equals(prdDs.Products.Description) && !dsd.isCancelled && !dsd.isDeleted)
+                        //        {
+                        //            if (!string.IsNullOrEmpty(prdDs.Qty))
+                        //            {
+                        //                pro.Qty += Convert.ToDouble(prdDs.Qty);
+                        //                count = pro.Qty;
+                        //            }
+
+                        //        }
+                        //}
                     }
                 }
 
@@ -189,18 +196,29 @@ namespace SimpleTax.Controllers
                 {
                     foreach (ProductsOrderedDS prdDs in dsd.ProductsOrdered)
                     {
-                        foreach (Products pro in ProductsForReference)
-                        {
-                            if (prdDs.Products != null)
-                                if (pro.Description.Equals(prdDs.Products.Description) && !dsd.isCancelled && !dsd.isDeleted)
+
+                        if ((prdDs.Products.Id.Equals(fhBoxMC) || prdDs.Products.Id.Equals(fhBox)) && !dsd.isCancelled && !dsd.isDeleted)
                                 {
                                     if (!string.IsNullOrEmpty(prdDs.Qty))
                                     {
-                                        pro.Qty += Convert.ToDouble(prdDs.Qty);
-                                        foc.FhccBoxesSoldDaily = pro.Qty.ToString();
+                                       count2 += Convert.ToDouble(prdDs.Qty);
+                                        foc.FhccBoxesSoldDaily = count2.ToString();
                                     }
-                                }
-                        }
+                            }
+
+
+                            //if (prdDs.Products != null)
+                            //{
+                            //    if ((prdDs.Products.Id.Equals(fhBoxMC) || prdDs.Products.Id.Equals(fhBox)) && !dsd.isCancelled && !dsd.isDeleted)
+                            //    {
+                            //        if (!string.IsNullOrEmpty(prdDs.Qty))
+                            //        {
+                            //            count2 += Convert.ToDouble(prdDs.Qty);
+                            //            foc.FhccBoxesSoldDaily = count2.ToString();
+                            //        }
+                            //    }
+                            //}
+
                     }
                 }
 
