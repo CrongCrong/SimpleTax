@@ -256,7 +256,7 @@ namespace SimpleTax
         public static List<DirectSalesDaily> GetDirectSalesDailyBoxesSold()
         {
             DateTime dteNow = DateTime.Parse("01/01/2021");
-            DateTime dteFirstDay = DateTime.Parse("01/31/2021");
+            DateTime dteFirstDay = DateTime.Parse("01/02/2021");
             //DateTime dteNow = DateTime.Parse(DateTime.Now.ToLocalTime().ToShortDateString());
             //DateTime dteFirstDay = DateTime.Parse(DateTime.Now.ToLocalTime().ToShortDateString());
             List<DirectSalesDaily> lstDS = new List<DirectSalesDaily>();

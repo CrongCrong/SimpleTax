@@ -82,7 +82,7 @@ namespace SimpleTax.Controllers
             FHCCOverviewControl foc = new FHCCOverviewControl();
 
             List<DirectSalesDaily> ListDirectSales = DatabaseHelpers.GetDirectSalesDailyBoxesSold();
-            List<DirectSalesDaily> ListDirectSalesMonthly = DatabaseHelpers.GetDirectSalesDailyBoxesSold(DateTime.Now.ToShortDateString());
+            List<DirectSalesDaily> ListDirectSalesMonthly = DatabaseHelpers.GetDirectSalesDailyBoxesSold("01/01/2021", "01/31/2021");
 
             List<Products> ProductsForReference = DatabaseHelpers.LoadProductList();
             
@@ -90,6 +90,7 @@ namespace SimpleTax.Controllers
             search.FhccBoxesSoldDaily = "0";
             search.FhccBoxesSoldMonthly = "0";
             double count = 0;
+            double count2 = 0;
 
             foc.search = search;
             ObjectId fhBox = ObjectId.Parse("5c5005be7973a5351c95c30f");
@@ -107,22 +108,21 @@ namespace SimpleTax.Controllers
                             foc.FhccBoxesSoldDaily = count.ToString();
                         }
                     }
+                }
+            }
 
-                    //foreach (Products pro in ProductsForReference)
-                    //{
-                    //    if (prdDs.Products != null)
-                    //    {
-                    //        if ((pro.Id.Equals(fhBoxMC) || pro.Id.Equals(fhBox)) && !dsd.isCancelled && !dsd.isDeleted)
-                    //        {
-                    //            if (!string.IsNullOrEmpty(prdDs.Qty))
-                    //            {
-                    //                pro.Qty += Convert.ToDouble(prdDs.Qty);
-                    //                foc.FhccBoxesSoldDaily = pro.Qty.ToString();
-                    //            }
-                    //        }
-                    //    }
-                           
-                    //}
+            foreach(DirectSalesDaily dsd in ListDirectSalesMonthly)
+            {
+                foreach (ProductsOrderedDS prdDs in dsd.ProductsOrdered)
+                {
+                    if ((prdDs.Products.Id.Equals(fhBoxMC) || prdDs.Products.Id.Equals(fhBox)) && !dsd.isCancelled && !dsd.isDeleted)
+                    {
+                        if (!string.IsNullOrEmpty(prdDs.Qty))
+                        {
+                            count2 += Convert.ToDouble(prdDs.Qty);
+                            foc.FhccBoxesSoldMonthly = count2.ToString();
+                        }
+                    }
                 }
             }
 
@@ -160,6 +160,7 @@ namespace SimpleTax.Controllers
 
                 double count = 0;
                 double count2 = 0;
+                double count3 = 0;
 
                 foreach (DirectSalesDaily dsd in DirectSalesSalesCustom)
                 {
@@ -170,26 +171,17 @@ namespace SimpleTax.Controllers
                             if (!string.IsNullOrEmpty(prdDs.Qty))
                             {
                                 count += Convert.ToDouble(prdDs.Qty);
-                                foc.FhccBoxesSoldDaily = count2.ToString();
+                                foc.FhccBoxesSoldMonthly = count2.ToString();
                             }
                         }
-                        //foreach (Products pro in ProductsForReference)
-                        //{
-                        //    if (prdDs.Products != null)
-                        //        if (pro.Description.Equals(prdDs.Products.Description) && !dsd.isCancelled && !dsd.isDeleted)
-                        //        {
-                        //            if (!string.IsNullOrEmpty(prdDs.Qty))
-                        //            {
-                        //                pro.Qty += Convert.ToDouble(prdDs.Qty);
-                        //                count = pro.Qty;
-                        //            }
-
-                        //        }
-                        //}
+     
                     }
                 }
 
                 List<DirectSalesDaily> ListDirectSales = DatabaseHelpers.GetDirectSalesDailyBoxesSold();
+                List<DirectSalesDaily> ListDirectSalesMonthly = DatabaseHelpers.GetDirectSalesDailyBoxesSold("01/01/2021", "01/31/2021");
+
+
                 foc.FhccBoxesSoldDaily = string.Empty;
 
                 foreach (DirectSalesDaily dsd in ListDirectSales)
@@ -198,34 +190,34 @@ namespace SimpleTax.Controllers
                     {
 
                         if ((prdDs.Products.Id.Equals(fhBoxMC) || prdDs.Products.Id.Equals(fhBox)) && !dsd.isCancelled && !dsd.isDeleted)
-                                {
-                                    if (!string.IsNullOrEmpty(prdDs.Qty))
-                                    {
-                                       count2 += Convert.ToDouble(prdDs.Qty);
-                                        foc.FhccBoxesSoldDaily = count2.ToString();
-                                    }
+                        {
+                            if (!string.IsNullOrEmpty(prdDs.Qty))
+                            {
+                                count2 += Convert.ToDouble(prdDs.Qty);
+                                foc.FhccBoxesSoldDaily = count2.ToString();
                             }
-
-
-                            //if (prdDs.Products != null)
-                            //{
-                            //    if ((prdDs.Products.Id.Equals(fhBoxMC) || prdDs.Products.Id.Equals(fhBox)) && !dsd.isCancelled && !dsd.isDeleted)
-                            //    {
-                            //        if (!string.IsNullOrEmpty(prdDs.Qty))
-                            //        {
-                            //            count2 += Convert.ToDouble(prdDs.Qty);
-                            //            foc.FhccBoxesSoldDaily = count2.ToString();
-                            //        }
-                            //    }
-                            //}
-
+                        }
                     }
                 }
 
-                svm.FhccBoxesSoldDaily = count.ToString();
+                foreach (DirectSalesDaily dsd in ListDirectSalesMonthly)
+                {
+                    foreach (ProductsOrderedDS prdDs in dsd.ProductsOrdered)
+                    {
+                        if ((prdDs.Products.Id.Equals(fhBoxMC) || prdDs.Products.Id.Equals(fhBox)) && !dsd.isCancelled && !dsd.isDeleted)
+                        {
+                            if (!string.IsNullOrEmpty(prdDs.Qty))
+                            {
+                                count3 += Convert.ToDouble(prdDs.Qty);
+                                foc.FhccBoxesSoldMonthly = count3.ToString();
+                            }
+                        }
+                    }
+                }
 
-                foc.search = svm; 
-                //test
+                svm.FhccBoxesSoldMonthly = count.ToString();
+
+                foc.search = svm;
 
                 return View("FHCC_Overview", foc);
              }
