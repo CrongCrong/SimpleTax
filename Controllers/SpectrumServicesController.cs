@@ -229,17 +229,22 @@ namespace SimpleTax.Controllers
 
         public ActionResult SPMProducts_Overview(SPMProductsOverviewControl overviewControl)
         {
-            if (!ModelState.IsValid)
-            {
-                var viewModel = new FHCCOverviewControl
-                {
-                    FromDate = overviewControl.search.FromDate,
-                    ToDate = overviewControl.search.ToDate,
-                };
 
-                return View("SpectrumServices", viewModel);
-            }
-            return RedirectToAction("SPMProducts_Overview", "SpectrumServices");
+            if (string.IsNullOrEmpty(Convert.ToString(Session["userId"])))
+                return RedirectToAction("Home", "SpectrumServices");
+
+
+            //if (!ModelState.IsValid)
+            //{
+            //    var viewModel = new FHCCOverviewControl
+            //    {
+            //        FromDate = overviewControl.search.FromDate,
+            //        ToDate = overviewControl.search.ToDate,
+            //    };
+
+            //    return View("SpectrumServices", viewModel);
+            //}
+            return View();
         }
 
 
