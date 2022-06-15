@@ -1,13 +1,14 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{C5BFD537-22CA-4F89-9056-7C88CCD5960B}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Customer/CustomerInfo.cshtml">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/SpectrumServicesController.cs">
     <Files>
       <File FileName="Models/Helpers/DatabaseHelpers.cs" Line="256" Column="46" IsPinned="True" />
-      <File FileName="Controllers/SpectrumServicesController.cs" Line="216" Column="18" />
-      <File FileName="Views/SpectrumServices/FHCC_Overview.cshtml" Line="40" Column="71" />
-      <File FileName="ViewModels/SearchDateViewModel.cs" Line="1" Column="1" />
-      <File FileName="Views/Customer/CustomerInfo.cshtml" Line="1" Column="1" />
-      <File FileName="Controllers/CustomerController.cs" />
-      <File FileName="Models/FHCCOverviewControl.cs" />
+      <File FileName="Controllers/SpectrumServicesController.cs" Line="223" Column="1" />
+      <File FileName="Views/SpectrumServices/FHCC_Overview.cshtml" Line="1" Column="1" />
+      <File FileName="Views/SpectrumServices/Overview.cshtml" Line="1" Column="1" />
+      <File FileName="Models/FHCCOverviewControl.cs" Line="1" Column="1" />
+      <File FileName="Models/SPMProductsOverviewControl.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,15 +16,8 @@
           <Node name="SimpleTax" expanded="True">
             <Node name="SimpleTax" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="Helpers" expanded="True" />
-              </Node>
-              <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Customer" expanded="True">
-                  <Node name="CustomerInfo.cshtml" selected="True" />
-                </Node>
-                <Node name="SpectrumServices" expanded="True" />
+                <Node name="SpectrumServices" expanded="True" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -34,13 +28,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.SimpleTax PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/Manu/Projects/SimpleTax/Controllers/SpectrumServicesController.cs" relfile="Controllers/SpectrumServicesController.cs" line="130" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SimpleTax PreferredExecutionTarget="/Applications/Safari.app" />
 </Properties>

@@ -3,6 +3,8 @@
     padding-bottom: 20px;
 }
 
+
+
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
@@ -58,6 +60,10 @@ textarea {
     padding: 10px;
     font-size: 60px;
     font-family: CairoFontCustomBold;
+}
+
+.CustomBodyColor {
+    background-color: #82a43a;
 }
 
 @font-face {

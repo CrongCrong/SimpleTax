@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using MongoDB.Bson;
 using SimpleTax;
+using SimpleTax.Models;
 
 namespace SimpleTax.Controllers
 {
@@ -223,6 +224,22 @@ namespace SimpleTax.Controllers
              }
 
             return RedirectToAction("FHCC_Overview", "SpectrumServices");
+        }
+
+
+        public ActionResult SPMProducts_Overview(SPMProductsOverviewControl overviewControl)
+        {
+            if (!ModelState.IsValid)
+            {
+                var viewModel = new FHCCOverviewControl
+                {
+                    FromDate = overviewControl.search.FromDate,
+                    ToDate = overviewControl.search.ToDate,
+                };
+
+                return View("SpectrumServices", viewModel);
+            }
+            return RedirectToAction("SPMProducts_Overview", "SpectrumServices");
         }
 
 

@@ -1,74 +1,71 @@
 ﻿@model FHCCOverviewControl
 
 @{ ViewBag.Title = "FHCC_Overview";
-    Layout = "~/Views/Shared/_Layout.cshtml"; }
+   Layout = "~/Views/Shared/_Layout.cshtml";
+    }
 
 
 
 @using (Html.BeginForm("SearchSalesDate", "SpectrumServices"))
 {
-<h3>FHCC OVERVIEW - SEARCH</h3>
+<body style="background-color: #82a43a; ">
+  
+        <h3>FHCC OVERVIEW - SEARCH</h3>
 
-                <p>
+        @Html.LabelFor(m => m.search.FromDate)
+        @Html.TextBoxFor(m => m.search.FromDate, "{0:d/MM/yyyy}", new { @class = "form-control" })
 
-                </p>
-                                @Html.LabelFor(m => m.search.FromDate)
-                                                @Html.TextBoxFor(m => m.search.FromDate, "{0:d/MM/yyyy}", new { @class = "form-control" })
+        @Html.LabelFor(m => m.search.ToDate)
 
-                                                                @Html.LabelFor(m => m.search.ToDate)
+        @Html.TextBoxFor(m => m.search.ToDate, "{0:d/MM/yyyy}", new { @class = "form-control" })
 
-                                                                                @Html.TextBoxFor(m => m.search.ToDate, "{0:d/MM/yyyy}", new { @class = "form-control" })
+    <br />
 
-                                                                                                <p>
+    <div style="background-color: wheat">
+        <table class="table">
 
-                                                                                                </p>
-                                                                                                                <table class="table">
+            <tbody>
 
-                                                                                                                    <tbody>
-                                                                                                                        @*<tr>
-                                                                                                                                <th scope="row">Boxes sold (this day): </th>
-                                                                                                                                <td>@Model.search.FhccBoxesSoldDaily</td>
-                                                                                                                            </tr>*@
-                                                                                                                        <tr>
-                                                                                                                            <th scope="row">Boxes sold (this month): </th>
-                                                                                                                            <td>@Model.search.FhccBoxesSoldMonthly</td>
-                                                                                                                        </tr>
+                <tr>
+                    <th scope="row">Blister Boxes sold (this month): </th>
+                    <td>@Model.search.FhccBoxesSoldMonthly</td>
+                </tr>
 
-                                                                                                                    </tbody>
-                                                                                                                </table>
+            </tbody>
+        </table>
+    </div>
 
-                                                                                                                                <p>
+   
 
-                                                                                                                                </p>
-                                                                                                                                           
+   <br />
 
+    <button type="submit" class="btn btn-primary">Search</button>
 
+    <br />
 
-                                                                                                                                                                                <button type="submit" class="btn btn-primary">Search</button>
+    <h1 class="CustomerHeaderBoldColored">DIRECT SALES</h1>
+    <h2>FHCC OVERVIEW - THIS MONTH</h2>
 
-                                                                                                                                                                                                <p>
+    <div style="background-color: wheat">
+        <table class="table">
 
-                                                                                                                                                                                                </p>
-                                                                                                                                                                                                                <h2>FHCC OVERVIEW - THIS MONTH</h2>
+            <tbody>
+                <tr>
+                    <th scope="row">Blister Boxes sold (this day): </th>
+                    <td>@Model.FhccBoxesSoldDaily</td>
+                </tr>
+                <tr>
+                    <th scope="row">Blister Boxes sold (this month): </th>
+                    <td>@Model.FhccBoxesSoldMonthly</td>
+                </tr>
 
-                                                                                                                                                                                                                                <table class="table">
-                                                                                                                                                                                                                                    @*<thead>
-                                                                                                                                                                                                                                            <tr>
-                                                                                                                                                                                                                                                <th scope="col">FHCC OVERVIEW</th>
-                                                                                                                                                                                                                                            </tr>
-                                                                                                                                                                                                                                        </thead>*@
-                                                                                                                                                                                                                                    <tbody>
-                                                                                                                                                                                                                                        <tr>
-                                                                                                                                                                                                                                            <th scope="row">Boxes sold (this day): </th>
-                                                                                                                                                                                                                                            <td>@Model.FhccBoxesSoldDaily</td>
-                                                                                                                                                                                                                                        </tr>
-                                                                                                                                                                                                                                        <tr>
-                                                                                                                                                                                                                                            <th scope="row">Boxes sold (this month): </th>
-                                                                                                                                                                                                                                            <td>@Model.FhccBoxesSoldMonthly</td>
-                                                                                                                                                                                                                                        </tr>
+            </tbody>
+        </table>
+    </div>
+   
 
-                                                                                                                                                                                                                                    </tbody>
-                                                                                                                                                                                                                                </table>
+    @Html.AntiForgeryToken()
+   
+</body>
 
-
-                                                                                                                                                                                                                                                @Html.AntiForgeryToken()}
+}

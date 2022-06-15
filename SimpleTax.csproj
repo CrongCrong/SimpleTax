@@ -196,6 +196,7 @@
     <Compile Include="Models\FHCC Overview\Products.cs" />
     <Compile Include="Models\FHCC Overview\ProductsOrderedDS.cs" />
     <Compile Include="ViewModels\SearchDateViewModel.cs" />
+    <Compile Include="Models\SPMProductsOverviewControl.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />

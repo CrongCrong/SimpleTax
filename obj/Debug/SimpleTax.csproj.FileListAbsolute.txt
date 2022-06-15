@@ -445,6 +445,7 @@ C:/Users/ocena/OneDrive/Documents/SPECTRUM PROGRAM/SimpleTax/obj/Debug/SimpleTax
 /Users/Manu/Projects/SimpleTax/bin/Newtonsoft.Json.xml
 /Users/Manu/Projects/SimpleTax/bin/Antlr3.Runtime.pdb
 /Users/Manu/Projects/SimpleTax/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+/Users/Manu/Projects/SimpleTax/obj/Debug/SimpleTax.csproj.AssemblyReference.cache
 /Users/Manu/Projects/SimpleTax/obj/Debug/SimpleTax.csproj.CoreCompileInputs.cache
 /Users/Manu/Projects/SimpleTax/obj/Debug/SimpleTax.csproj.CopyComplete
 /Users/Manu/Projects/SimpleTax/obj/Debug/SimpleTax.dll
