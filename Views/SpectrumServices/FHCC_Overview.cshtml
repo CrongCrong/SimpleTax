@@ -1,71 +1,87 @@
 ﻿@model FHCCOverviewControl
 
 @{ ViewBag.Title = "FHCC_Overview";
-   Layout = "~/Views/Shared/_Layout.cshtml";
-    }
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
 
 
+@section scripts{
+
+
+    <script src="~/Scripts/jquery-ui-1.13.1.min.js"></script>
+
+    <script>
+
+        $(function () {
+            $(".datepicker").datepicker({
+                dateFormat: "mm-dd-yy",
+                changeMonth: true,
+                changeYear: true,
+            });
+        })
+    </script>
+
+}
 
 @using (Html.BeginForm("SearchSalesDate", "SpectrumServices"))
 {
-<body style="background-color: #82a43a; ">
-  
+    <body>
+
         <h3>FHCC OVERVIEW - SEARCH</h3>
 
         @Html.LabelFor(m => m.search.FromDate)
-        @Html.TextBoxFor(m => m.search.FromDate, "{0:d/MM/yyyy}", new { @class = "form-control" })
+        @Html.EditorFor(m => m.search.FromDate, new { htmlAttributes = new { @class = "form-control datepicker" } })
 
         @Html.LabelFor(m => m.search.ToDate)
-
         @Html.TextBoxFor(m => m.search.ToDate, "{0:d/MM/yyyy}", new { @class = "form-control" })
 
-    <br />
+        <br />
 
-    <div style="background-color: wheat">
-        <table class="table">
+        <div style="background-color: wheat">
+            <table class="table">
 
-            <tbody>
+                <tbody>
 
-                <tr>
-                    <th scope="row">Blister Boxes sold (this month): </th>
-                    <td>@Model.search.FhccBoxesSoldMonthly</td>
-                </tr>
+                    <tr>
+                        <th scope="row">Blister Boxes sold (this month): </th>
+                        <td>@Model.search.FhccBoxesSoldMonthly</td>
+                    </tr>
 
-            </tbody>
-        </table>
-    </div>
+                </tbody>
+            </table>
+        </div>
 
-   
 
-   <br />
 
-    <button type="submit" class="btn btn-primary">Search</button>
+        <br />
 
-    <br />
+        <button type="submit" class="btn btn-primary">Search</button>
 
-    <h1 class="CustomerHeaderBoldColored">DIRECT SALES</h1>
-    <h2>FHCC OVERVIEW - THIS MONTH</h2>
+        <br />
 
-    <div style="background-color: wheat">
-        <table class="table">
+        <h1 class="CustomerHeaderBoldColored">DIRECT SALES</h1>
+        <h2>FHCC OVERVIEW - THIS MONTH</h2>
 
-            <tbody>
-                <tr>
-                    <th scope="row">Blister Boxes sold (this day): </th>
-                    <td>@Model.FhccBoxesSoldDaily</td>
-                </tr>
-                <tr>
-                    <th scope="row">Blister Boxes sold (this month): </th>
-                    <td>@Model.FhccBoxesSoldMonthly</td>
-                </tr>
+        <div style="background-color: wheat">
+            <table class="table">
 
-            </tbody>
-        </table>
-    </div>
-   
+                <tbody>
+                    <tr>
+                        <th scope="row">Blister Boxes sold (this day): </th>
+                        <td>@Model.FhccBoxesSoldDaily</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Blister Boxes sold (this month): </th>
+                        <td>@Model.FhccBoxesSoldMonthly</td>
+                    </tr>
 
-    @Html.AntiForgeryToken()
-   
-</body>
+                </tbody>
+            </table>
+        </div>
+
+
+        @Html.AntiForgeryToken()
+
+    </body>
 
 }

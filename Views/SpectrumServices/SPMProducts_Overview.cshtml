@@ -1,8 +1,52 @@
-﻿
+﻿@model SPMProductsOverviewControl
 @{
     ViewBag.Title = "SPMProducts_Overview";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+<link href="//cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css" rel="stylesheet" />
+
 <h2>SPMProducts_Overview</h2>
+
+
+@section scripts
+{
+    <script src="//cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+
+    <script>
+
+
+        $(document).ready(function () {
+            var table = $("#tbl1").DataTable({
+                ajax: {
+                    url: " /api/spmproducts/",
+                    dataSrc: ""
+                },
+                columns:
+                    [
+                        {
+                            data: "ProductName"
+                        },
+                        {
+                            data: "ProductQuantity"
+                        }
+                    ]
+            });
+        });
+
+
+    </script>
+}
+
+
+<p />
+
+<table id="tbl1" class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th> Product name </th>
+            <th> Quantity </th>
+        </tr>
+    </thead>
+</table>
 

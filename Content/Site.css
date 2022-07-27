@@ -3,7 +3,11 @@
     padding-bottom: 20px;
 }
 
-
+.ui-datepicker {
+    background: #333;
+    border: 1px solid #555;
+    color: #EEE;
+}
 
 /* Set padding to keep content from hitting the edges */
 .body-content {

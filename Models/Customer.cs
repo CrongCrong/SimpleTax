@@ -10,6 +10,8 @@ namespace SimpleTax
     {
         public ObjectId Id { get; set; }
 
+        public string ResidentialAddress { get; set; }
+
         [Display(Name = "First name")]
         [Required(ErrorMessage = "Please enter first name.")]
         public string Firstname { get; set; }
@@ -57,6 +59,8 @@ namespace SimpleTax
         public User Credentials { get; set; }
 
         public List<Customer> Referrals { get; set; }
+        public SimpleMembers Processor { get; set; }
+        public string Remarks { get; set; }
 
         [Display(Name = "Tax Payer")]
         public TaxPayerType TaxPayer;

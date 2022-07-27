@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 using MongoDB.Bson;
-using SimpleTax;
-using SimpleTax.Models;
+
 
 namespace SimpleTax.Controllers
 {
@@ -65,7 +63,6 @@ namespace SimpleTax.Controllers
         }
 
 
-    
         public ActionResult Overview(string userId)
         {
             if (string.IsNullOrEmpty(Convert.ToString(Session["userId"])))
@@ -74,7 +71,6 @@ namespace SimpleTax.Controllers
         }
 
 
-    
         public ActionResult FHCC_Overview(FHCCOverviewControl focc)
         {
             if (string.IsNullOrEmpty(Convert.ToString(Session["userId"])))
@@ -86,7 +82,7 @@ namespace SimpleTax.Controllers
             List<DirectSalesDaily> ListDirectSalesMonthly = DatabaseHelpers.GetDirectSalesDailyBoxesSold("01/01/2021", "01/31/2021");
 
             List<Products> ProductsForReference = DatabaseHelpers.LoadProductList();
-            
+
             SearchDateViewModel search = new SearchDateViewModel();
             search.FhccBoxesSoldDaily = "0";
             search.FhccBoxesSoldMonthly = "0";
@@ -112,7 +108,7 @@ namespace SimpleTax.Controllers
                 }
             }
 
-            foreach(DirectSalesDaily dsd in ListDirectSalesMonthly)
+            foreach (DirectSalesDaily dsd in ListDirectSalesMonthly)
             {
                 foreach (ProductsOrderedDS prdDs in dsd.ProductsOrdered)
                 {
@@ -147,7 +143,8 @@ namespace SimpleTax.Controllers
                 return View("SpectrumServices", viewModel);
             }
 
-            if(!string.IsNullOrEmpty(overviewControl.search.FromDate.ToShortDateString()) && !string.IsNullOrEmpty(overviewControl.search.ToDate.ToShortDateString())){
+            if (!string.IsNullOrEmpty(overviewControl.search.FromDate.ToShortDateString()) && !string.IsNullOrEmpty(overviewControl.search.ToDate.ToShortDateString()))
+            {
 
                 List<DirectSalesDaily> DirectSalesSalesCustom = DatabaseHelpers.GetDirectSalesDailyBoxesSold(overviewControl.search.FromDate.ToShortDateString(), overviewControl.search.ToDate.ToShortDateString());
 
@@ -175,7 +172,7 @@ namespace SimpleTax.Controllers
                                 foc.FhccBoxesSoldMonthly = count2.ToString();
                             }
                         }
-     
+
                     }
                 }
 
@@ -221,7 +218,7 @@ namespace SimpleTax.Controllers
                 foc.search = svm;
 
                 return View("FHCC_Overview", foc);
-             }
+            }
 
             return RedirectToAction("FHCC_Overview", "SpectrumServices");
         }
@@ -229,22 +226,74 @@ namespace SimpleTax.Controllers
 
         public ActionResult SPMProducts_Overview(SPMProductsOverviewControl overviewControl)
         {
-
             if (string.IsNullOrEmpty(Convert.ToString(Session["userId"])))
                 return RedirectToAction("Home", "SpectrumServices");
 
+            SPMProductsOverviewControl spmOc = new SPMProductsOverviewControl();
+            List<FHSkinProductSales> ListProductsToDisplay = new List<FHSkinProductSales>();
+            List<FHSkinProductSales> ListProductsToDisplay2 = new List<FHSkinProductSales>();
 
-            //if (!ModelState.IsValid)
-            //{
-            //    var viewModel = new FHCCOverviewControl
-            //    {
-            //        FromDate = overviewControl.search.FromDate,
-            //        ToDate = overviewControl.search.ToDate,
-            //    };
+            FHSkinProductSales ProductDisplay = new FHSkinProductSales();
 
-            //    return View("SpectrumServices", viewModel);
-            //}
-            return View();
+            List<FHSkinProducts> ListSPMProducts = DatabaseHelpers.LoadSPMProductsList();
+            List<FHSkinSales> ListSPMProductSales = DatabaseHelpers.LoadFHSkinSales();
+
+
+            foreach (FHSkinSales sales in ListSPMProductSales)
+            {
+                if (sales.ProductsBought != null)
+                {
+                    foreach (FHSkinProducts skinProd in sales.ProductsBought)
+                    {
+                        foreach (FHSkinProducts DefaultProd in ListSPMProducts)
+                        {
+                            if (DefaultProd.Id == skinProd.Id)
+                            {
+                                DefaultProd.ProductQuantity = (Convert.ToDouble(DefaultProd.ProductQuantity) + Convert.ToDouble(skinProd.ProductQuantity)).ToString();
+                            }
+                        }
+                    }
+
+                    foreach (FHSkinProducts prod in ListSPMProducts)
+                    {
+                        ProductDisplay.Product = prod;
+                        ProductDisplay.ProductQuantity = prod.ProductQuantity;
+                        ListProductsToDisplay.Add(ProductDisplay);
+                        ProductDisplay = new FHSkinProductSales();
+                    }
+
+                }
+                else if (sales.ProductsSales != null)
+                {
+                    foreach (FHSkinProductSales skinProd in sales.ProductsSales)
+                    {
+                        foreach (FHSkinProducts DefaultProd in ListSPMProducts)
+                        {
+                            if (DefaultProd.Id == skinProd.Product.Id)
+                            {
+                                ProductDisplay.Product = DefaultProd;
+                                ProductDisplay.ProductQuantity = (Convert.ToDouble(ProductDisplay.ProductQuantity) + Convert.ToDouble(skinProd.ProductQuantity)).ToString();
+                                ListProductsToDisplay.Add(ProductDisplay);
+                                ProductDisplay = new FHSkinProductSales();
+                            }
+                        }
+                    }
+                }
+            }
+
+            ListProductsToDisplay = ListProductsToDisplay.OrderByDescending(a => a.Product.ProductDescription).ToList();
+
+            ListProductsToDisplay = ListProductsToDisplay.GroupBy(g => new { g.Product, g.Product.ProductDescription })
+                .Select(s => new FHSkinProductSales
+                {
+                    Product = s.Key.Product,
+                    ProductName = s.Key.ProductDescription,
+                    ProductQuantity = s.Sum(q => Convert.ToDouble(q.ProductQuantity)).ToString(),
+                }).ToList();
+
+            spmOc.ListProductsSold = ListProductsToDisplay;
+
+            return View(spmOc);
         }
 
 
@@ -256,7 +305,7 @@ namespace SimpleTax.Controllers
             return RedirectToAction("Home", "SpectrumServices");
         }
 
-  
+
 
     }
 }

@@ -12,6 +12,7 @@ namespace SimpleTax
         static ConnectionDB conDB = new ConnectionDB();
 
         #region SIMPLE TAX METHODS
+
         public static List<Customer> LoadCustomers()
         {
             List<Customer> listCustomers = new List<Customer>();
@@ -23,7 +24,7 @@ namespace SimpleTax
        Builders<Customer>.Filter.Where(p => p.IsDeleted == false),
        Builders<Customer>.Filter.Where(p => p.Credentials.IsAdmin == false));
 
-                listCustomers = collection.Find(filter).ToList();   
+                listCustomers = collection.Find(filter).ToList();
 
                 foreach (Customer ee in listCustomers)
                 {
@@ -141,6 +142,27 @@ namespace SimpleTax
             {
                 ph = new PasswordHash(userr.Credentials.bSalt, userr.Credentials.bHash);
                 userr.Credentials.IsValidCredentials = ph.Verify(user.Password);
+            }
+
+            return userr;
+        }
+
+        public static User IfValidLogInAdmin(User user)
+        {
+            PasswordHash ph = new PasswordHash(user.Password);
+            var db = conDB.client.GetDatabase("DBSIMPLETAX");
+            var collection = db.GetCollection<User>("User");
+            var filter = Builders<User>.Filter.And(
+    Builders<User>.Filter.Where(p => p.Username.Equals(user.Username)),
+    Builders<User>.Filter.Where(p => p.IsDeleted == false));
+
+            User userr = collection.Find(filter).ToList().SingleOrDefault(u => u.Username.Equals(user.Username));
+
+
+            if (userr != null)
+            {
+                ph = new PasswordHash(userr.bSalt, userr.bHash);
+                userr.IsValidCredentials = ph.Verify(user.Password);
             }
 
             return userr;
@@ -271,7 +293,7 @@ namespace SimpleTax
          Builders<DirectSalesDaily>.Filter.Lte("DateOrdered", dteFirstDay));
 
                 lstDS = collection.Find(filter).ToList();
-                
+
 
                 //foreach (DirectSalesDaily ds in lstDS)
                 //{
@@ -383,7 +405,60 @@ namespace SimpleTax
             return collection.Find(filter).ToList().OrderBy(a => a.ProductName).ToList();
         }
 
+        #endregion
 
+        #region SPM Products OVERVIEW
+
+        public static List<FHSkinProducts> LoadSPMProductsList()
+        {
+            List<FHSkinProducts> listProducts = new List<FHSkinProducts>();
+
+            try
+            {
+                var db = conDB.client.GetDatabase("DBFHSKIN");
+                var collection = db.GetCollection<FHSkinProducts>("FHSkinProducts");
+                var filter = Builders<FHSkinProducts>.Filter.And(
+                    Builders<FHSkinProducts>.Filter.Where(p => p.IsDeleted == false));
+
+                listProducts = collection.Find(filter).ToList();
+
+                listProducts = listProducts.OrderByDescending(a => a.ProductDescription).ToList();
+
+            }
+            catch (Exception e)
+            {
+                Debug.Assert(false, e.StackTrace);
+            }
+
+            return listProducts;
+        }
+
+        public static List<FHSkinSales> LoadFHSkinSales()
+        {
+            List<FHSkinSales> listSales = new List<FHSkinSales>();
+            try
+            {
+                var db = conDB.client.GetDatabase("DBFHSKIN");
+                var collection = db.GetCollection<FHSkinSales>("FHSkinSales");
+                var filter = Builders<FHSkinSales>.Filter.And(
+       Builders<FHSkinSales>.Filter.Where(p => p.IsDeleted == false));
+
+
+                listSales = collection.Find(filter).ToList();
+
+                foreach (FHSkinSales f in listSales)
+                {
+                    f.StrTransactionDate = f.TransactionDate.ToShortDateString();
+                }
+
+                listSales = listSales.OrderByDescending(a => a.TransactionDate).ToList();
+            }
+            catch (Exception ex)
+            {
+                Debug.Assert(false, ex.StackTrace);
+            }
+            return listSales;
+        }
 
         #endregion
 

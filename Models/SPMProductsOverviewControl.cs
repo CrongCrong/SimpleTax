@@ -1,8 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using MongoDB.Bson.Serialization.Attributes;
 
-namespace SimpleTax.Models
+namespace SimpleTax
 {
     public class SPMProductsOverviewControl
     {
@@ -16,6 +17,9 @@ namespace SimpleTax.Models
 
         public string Real1KgSold { get; set; }
 
+        public List<FHSkinProductSales> ListProductsSold { get; set; }
+
+        public FHSkinProductSales products { get; set; }
 
         [Display(Name = "From Date")]
         [Required(ErrorMessage = "Please enter date.")]

@@ -33,12 +33,12 @@ namespace SimpleTax.Controllers
             uuser.Username = userControl.Username;
             uuser.Password = userControl.Password;
             userControl.user = uuser;
-            Customer user = DatabaseHelpers.ifValidLogin(userControl.user);
+            User user = DatabaseHelpers.IfValidLogInAdmin(userControl.user);
 
             string str = SessionStatus.Admin.ToString();
             if (user != null)
             {
-                if (user.Credentials.IsAdmin)
+                if (user.IsAdmin)
                 {
                     Session[SessionStatus.Admin.ToString()] = SessionStatus.Admin.ToString();
                     return RedirectToAction("Index", "Customer");
