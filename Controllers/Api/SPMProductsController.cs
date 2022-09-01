@@ -14,7 +14,7 @@ namespace SimpleTax.Controllers.Api
 
 
         //GET /api/spmproducts
-        public IEnumerable<FHSkinProductSales> GetCustomers()
+        public IEnumerable<FHSkinProductSales> GetSpmProducts()
         {
             List<FHSkinProducts> ListSPMProducts = DatabaseHelpers.LoadSPMProductsList();
             List<FHSkinSales> ListSPMProductSales = DatabaseHelpers.LoadFHSkinSales();
